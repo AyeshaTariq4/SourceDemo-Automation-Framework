@@ -11,28 +11,43 @@ This project automates the SauceDemo website using Selenium WebDriver with Pytho
 - Checkout Process
 - Order Completion
 - Page Object Model (POM)
+- Headless Chrome Support
+- Screenshot Capture
 
 ## Technologies Used
 - Python
-- Selenium
+- Selenium Webdriver
 - WebDriver Manager
 - ChromeDriver
+- Page Object Model (POM)
+- Git
+- GitHub
+- GitHub Actions
 - VS Code
 
+## Screenshots
+- Browser Launch
+- Product Added to Cart
+- Order Complete Successfully
+  
 ## Project Structure
 
 SauceDemo_Automation/
-│
-├── pages
-├── tests
-├── utilities
-├── reports
-├── screenshots
+├── pages/
+├── tests/
+├── reports/
+├── screenshots/
 ├── requirements.txt
 └── README.md
 
 ## Run Project
 
 ```bash
+git clone https://github.com/AyeshaTariq4/SourceDemo_Automation.git
+
+cd SourceDemo_Automation
+
+pip install -r requirements.txt
+
 python -m tests.test_login
 ```
